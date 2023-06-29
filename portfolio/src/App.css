@@ -189,7 +189,7 @@ ul{
   align-content: flex-start;
   gap: 10px;
   flex-wrap: wrap;
-  background-color: #f6f6f6;
+  background-color: transparent;
 }
 
 .skills_btn{
@@ -250,9 +250,80 @@ ul{
   margin-left:20px;
 }
 
+/* /////////////Projects section styling//////////////// */
 
+.projects_container{
+  padding-left:15%;
+  padding-right:15%;
+  margin-top:200px;
+  margin-bottom:200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap:15px;
+  
+}
+
+.project_1_wrapper{
+  height:274px;
+  width:374px;
+}
+
+.project_1_img{
+  height:274px;
+  width:374px;
+  border-radius: 18px;
+  filter: brightness(1);
+  border:solid 2px #0065ff;
+}
+
+.project_1_img:hover{
+  filter: brightness(1);
+  transition: 0.5s;
+}
+
+.coming_soon{
+  filter: brightness(1);
+  border:solid 2px #0065ff;
+}
+
+.project_title_1{
+  background-color: transparent;
+  color:#000;
+  text-align: center;
+  margin-bottom:10px;
+}
+
+@media screen and (max-width:1400px){
+  .main_container{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .projects_container{
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+}
+
+@media screen and (max-width:1220px){
+  .main_container{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
 
 @media screen and (max-width:990px){
+
+  header{
+    justify-content: center;
+  }
+
+  li a{
+    font-size: 14px;
+  }
+
   .banner_title_1{
     font-size: 50px;
   }
@@ -298,6 +369,24 @@ ul{
   .view_work_btn{
     padding:12px 24px;
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width:650px){
+  li {
+    margin-left: 10px !important;
+    justify-content: space-evenly;
+  }
+
+  ul{
+    padding-left:0px;
+    padding-right:0px;
+  }
+
+  header{
+    width: 100%;
+    padding-left:0px;
+    padding-right:0px;
   }
 }
 

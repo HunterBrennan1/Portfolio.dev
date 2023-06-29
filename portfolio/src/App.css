@@ -12,14 +12,16 @@
 
 li, button, a{
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
   color:#000;
   text-decoration: none;
   list-style: none;
+  background-color: #fefefe;
 }
 
 li{
   margin-left:40px;
+  
 }
 
 header{
@@ -28,18 +30,28 @@ header{
   align-items: end;
   padding-left: 10%;
   padding-right: 10%;
+  background-color: #fefefe;
 }
 
 ul{
   display: flex;
   flex-direction: row;
   padding:30px;
+  background-color: #fefefe;
 }
 
-.navbar_wrapper{
-  height:auto;
-  width:100%;
-  background-color:#000;
+.contact_nav_btn{
+  background-color: #0065ff;
+  color:#fff;
+  padding:8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 50px;
+}
+
+.contact_nav_btn:hover {
+  background-color:#0b80f4;
+  transition: 0.5s;
 }
 
 

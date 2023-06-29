@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bakbak+One&family=Lato:wght@700;900&family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
 
 
 * {
@@ -5,11 +7,39 @@
   margin: 0;
   padding: 0;
   background-color: #fcfcfc;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 li, button, a{
   font-weight: 500;
   font-size: 16px;
-  color:#0000;
+  color:#000;
   text-decoration: none;
+  list-style: none;
 }
+
+li{
+  margin-left:40px;
+}
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: end;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+ul{
+  display: flex;
+  flex-direction: row;
+  padding:30px;
+}
+
+.navbar_wrapper{
+  height:auto;
+  width:100%;
+  background-color:#000;
+}
+
+

@@ -64,7 +64,7 @@ ul{
   padding-left:15%;
   padding-right:15%;
   line-height: 1.4;
-  position: relative;
+  /* position: relative; */
   margin-bottom: 45px;
   margin-top: 45px;
 }
@@ -89,22 +89,6 @@ ul{
   font-weight: 500;
 }
 
-.star_containing_block{
-  position: relative;
-}
-
-.star_container1{
-  position: absolute;
-  background-color: transparent;
-  right:200px;
-  top:30px;
-}
-
-.star_trans_1{
-  width:42px;
-  height:42px;
-  flex-shrink: 0;
-}
 
 /* ///////////Main page styling///////////// */
 
@@ -264,6 +248,85 @@ ul{
   padding: 16px 32px;
   border:none;
   margin-left:20px;
+}
+
+
+
+@media screen and (max-width:990px){
+  .banner_title_1{
+    font-size: 50px;
+  }
+  .banner_title_2{
+    font-size: 50px;
+  }
+
+  .main_container{
+    flex-direction: column;
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+  .hero_container{
+    padding-left:5%;
+    padding-right:5%;
+  }
+
+  .skills_card_container{
+    width:100%;
+  }
+
+  .about_card_container{
+    width:100%;
+  }
+
+  .about_text{
+    font-size: 16px;
+    margin-top:25px;
+  }
+
+  .about_btn_container{
+    flex-direction: row;
+    display: flex;
+ 
+  }
+
+  .connect_about_btn{
+    padding:12px 24px;
+    font-size: 12px;
+  }
+
+  .view_work_btn{
+    padding:12px 24px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:450px){
+  .banner_title_1{
+    font-size: 35px;
+  }
+  .banner_title_2{
+    font-size: 35px;
+  }
+
+  .about_btn_container{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+  }
+
+  .connect_about_btn{
+    padding:12px 24px;
+    font-size: 12px;
+  }
+
+  .view_work_btn{
+    padding:12px 24px;
+    font-size: 12px;
+    margin-left: 0px;
+
+  }
 }
 
 

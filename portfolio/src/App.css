@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bakbak+One&family=Lato:wght@700;900&family=PT+Sans+Narrow&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 
 
 * {
@@ -8,6 +8,7 @@
   padding: 0;
   background-color: #fcfcfc;
   font-family: 'Poppins', sans-serif !important;
+  
 }
 
 li, button, a{
@@ -77,42 +78,100 @@ ul{
 
 .banner_name_span{
   color:#0065ff;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .banner_website_span{
-  font-weight: 600;
+  font-weight: 500;
 }
 
-.star_container{
-  position: absolute;
-  top: 0px;
-  background-color: transparent;
+/* ///////////Main page styling///////////// */
+
+.main_container{
+  width:100%;
+  height:auto;
+  padding-left:10%;
+  padding-right:10%;
+  display: flex;
+  flex-direction: row;
+  gap:30px;
 }
 
-.four-pointed-star{
-  position:relative;
-  margin:1em auto;
-  width:20px;
-  font-size:12em;
+.skills_card_container{
+  padding:40px;
+  background-color:#f6f6f6;
+  width:40%;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  gap:80px;
 }
 
-.four-pointed-star:before{
-  content:"";
-  position:absolute;
-  background:#0065ff;
-  width:10px;
-  height:15px;
-  transform:rotate(-45deg) skewX(22.5deg) skewY(22.5deg);
+.profile_container{
+  background-color: #f6f6f6;
 }
 
-.four-pointed-star:after{
-  content:"";
-  position:absolute;
-  background:#0065ff;
-  width:10px;
-  height:15px;
-  transform:rotate(45deg) skewX(22.5deg) skewY(22.5deg);
+.profile_img{
+  height:80px;
+  border-radius: 100px;
+  background-color: #0065ff;
+  padding:3px;
+  margin-bottom:10px;
+}
+
+.skills_card_name{
+  font-size: 25px;
+  font-weight: 500;
+  background-color:#f6f6f6;
+}
+
+.skills_card_developer{
+  font-size: 25px;
+  font-weight: 400;
+  background-color:#f6f6f6;
+  margin-bottom:5px;
+}
+
+.availability_btn{
+  color:#3fc042;
+  background-color:#f6f6f6;
+  font-size:15px;
+}
+
+.profile_desc_container{
+  background-color:#f6f6f6;
+}
+
+.skills_desc{
+  font-size: 20px;
+  color:#616063;
+  background-color:#f6f6f6;
+  margin-bottom:25px;
+}
+
+.skills_desc_span{
+  font-size: 20px;
+  color:#616063;
+  font-weight: 500;
+  background-color:#f6f6f6;
+}
+
+.skills_btn{
+  padding:5px;
+  padding-left:15px;
+  padding-right:15px;
+  font-weight: 400;
+  background-color: #ddddde;
+  border:none;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+
+.about_card_container{
+  width:60%;
+  padding:20px;
+  background-color:#f6f6f6;
+  border-radius: 25px;
 }
 
 

@@ -72,6 +72,7 @@ ul{
 .banner_title_1{
   font-size: 65px;
   font-weight: 400;
+  position: relative;
 }
 
 .banner_title_2{
@@ -86,6 +87,23 @@ ul{
 
 .banner_website_span{
   font-weight: 500;
+}
+
+.star_containing_block{
+  position: relative;
+}
+
+.star_container1{
+  position: absolute;
+  background-color: transparent;
+  right:200px;
+  top:30px;
+}
+
+.star_trans_1{
+  width:42px;
+  height:42px;
+  flex-shrink: 0;
 }
 
 /* ///////////Main page styling///////////// */

@@ -411,7 +411,6 @@ ul{
 
 .download_btn{
   background-color: #f7f7f9;
-  /* position: absolute; */
   padding:5px 30px;
   border-radius: 50px;
   color:#616063;
@@ -445,6 +444,20 @@ ul{
     padding-left: 5%;
     padding-right: 5%;
   }
+
+  .contact_section_container{
+    flex-direction: column;
+    width:100%;
+  }
+
+  .resume_wrapper{
+    width:100%;
+  }
+
+  .contact_wrapper{
+    width:100%;
+  }
+
 }
 
 @media screen and (max-width:990px){
@@ -568,6 +581,17 @@ ul{
     padding-left:0px;
     padding-right:0px;
   }
+
+  .contact_section_container{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-bottom: 50px;
+  }
+
+  .projects_view_btn_container{
+    margin-bottom: 80px;
+  }
+
 }
 
 @media screen and (max-width:450px){

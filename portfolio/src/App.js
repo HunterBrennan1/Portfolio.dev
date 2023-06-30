@@ -4,6 +4,7 @@ import Navbar from './components/Navbar';
 import HeroImg from './components/Hero';
 import Main from './components/Main';
 import Projects from './components/projects';
+import Contact from './components/contact';
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <HeroImg />
       <Main />
       <Projects />
+      <Contact />
     </div>
   );
 }

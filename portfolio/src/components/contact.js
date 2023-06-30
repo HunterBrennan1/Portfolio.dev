@@ -18,16 +18,16 @@ export const Contact = () => {
         </div>
         <div className="contact_wrapper">
           <h2 className="contact_bubble_title_contact">Get In Touch!</h2>
-          <a className="contact_email">Hunterbrennandev@gmail.com</a>
+          <a href="mailto:hunterbrennandev@gmail.com" target="_blank" className="contact_email">Hunterbrennandev@gmail.com</a>
           <div className="contact_icon_container">
             <div>
-              <img className="contact_icon" src={Email}></img>
+              <a href="mailto:hunterbrennandev@gmail.com" target="_blank"><img className="contact_icon" src={Email}></img></a>
             </div>
             <div>
-              <img className="contact_icon" src={Linkedin}></img>
+              <a href="https://www.linkedin.com/in/hunter-brennan-dev/" target="_blank"><img className="contact_icon" src={Linkedin}></img></a>
             </div>
             <div>
-              <img className="contact_icon" src={Github}></img>
+              <a href="https://github.com/HunterBrennan1" target="_blank"><img className="contact_icon" src={Github}></img></a>
             </div>
           </div>
         </div>

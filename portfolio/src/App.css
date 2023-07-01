@@ -11,6 +11,10 @@
   
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 li, button, a{
   font-weight: 500;
   font-size: 16px;
@@ -53,6 +57,19 @@ ul{
 .contact_nav_btn:hover {
   background-color:#0b80f4;
   transition: 0.5s;
+}
+
+.gotopbtn{
+  position: fixed;
+  width:50px;
+  height:50px;
+  background-color: #f7f7f9;
+  bottom:40px;
+  right:50px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
+-moz-box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
+box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
 }
 
 /* /////////Hero Banner Styling///////// */

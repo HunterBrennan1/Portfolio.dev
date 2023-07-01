@@ -25,7 +25,7 @@ export const Main = () => {
       </div>
       <div className="about_card_container">
         <h2 className="about_title">Get to know me!</h2>
-        <p className="about_text">i'm a Full Stack Developer specializing in building Websites and Web Applications that drive the success of the overall product. Take a look at some of my projects showcased below.</p>
+        <p className="about_text">I'm a Full Stack Developer specializing in building Websites and Web Applications that drive the success of the overall product. Take a look at some of my projects showcased below.</p>
         <p className="about_text">In addition to my development work, I enjoy sharing my knowledge and insights gained in Web Development on Linkedin. Connect with me to access valuable content on Web Development and Programming that can benefit the Dev Community.</p>
         <p className="about_text">I'm actively seeking job opportunities where I can contribute, learn, and grow. If you have a compelling opportunity that aligns with my skills and experience, please don't hesitate to reach out to me!</p>
         <div className="about_btn_container">

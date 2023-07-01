@@ -1,4 +1,4 @@
-
+import UpArrow from "../assets/up-arrow-4.png";
 
 export const Navbar = () => {
   return (
@@ -13,6 +13,7 @@ export const Navbar = () => {
           </ul>
         </nav>
       </header>
+      <a className="back_to_top_btn" href="#"><img className="gotopbtn" src={UpArrow}></img></a>
     </section>
   )
 };

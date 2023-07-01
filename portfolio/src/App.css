@@ -19,9 +19,9 @@ li, button, a{
   font-weight: 500;
   font-size: 16px;
   color:#000;
-  text-decoration: none;
+  text-decoration: none !important;
   list-style: none;
-  background-color: #fefefe;
+  /* background-color: #fefefe !important; */
 }
 
 li{
@@ -38,6 +38,10 @@ header{
   background-color: #fefefe;
 }
 
+nav{
+  background-color: #fefefe !important;
+}
+
 ul{
   display: flex;
   flex-direction: row;
@@ -45,12 +49,44 @@ ul{
   background-color: #fefefe;
 }
 
+.nav-link{
+  background-color: #fefefe !important;
+}
+
+.navbar-nav{
+  gap:10px;
+}
+
+.navbar-collapse{
+  justify-content: left !important;
+}
+
+.container{
+  background-color: #fefefe;
+}
+
+.navbar-toggler{
+  border:none !important;
+  background-color: #fefefe;
+}
+
+.navbar-toggler:focus{
+  border:none !important;
+  background-color: #fefefe;
+  box-shadow: none;
+}
+
+.navbar-toggler:active{
+  border:none !important;
+  background-color: #fefefe;
+}
+
 .contact_nav_btn{
-  background-color: #0065ff;
-  color:#fff;
+  background-color: #0065ff !important;
+  color:#fff !important;
   padding:8px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
   border-radius: 50px;
 }
 
@@ -408,6 +444,7 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
 
 .contact_email{
   background-color: #f7f7f9;
+  color: #000;
 }
 
 .view_btn{
@@ -480,7 +517,19 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
 @media screen and (max-width:990px){
 
   header{
-    justify-content: center;
+    justify-content: left;
+    padding-left:0px;
+    width:100% !important;
+  }
+
+  .navbar-nav{
+    margin-left:10px;
+    background-color: #fefefe !important;
+  }
+
+  .contact_nav_btn{
+   text-align: center;
+   width:100%;
   }
 
   li a{

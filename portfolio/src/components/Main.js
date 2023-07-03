@@ -2,7 +2,7 @@ import profileimg from '../assets/profile1.png';
 
 export const Main = () => {
   return (
-    <section className="main_container">
+    <section className="main_container" id="about">
       <div className="skills_card_container">
         <div className="profile_container">
           <div className="profile_img_container">
@@ -29,7 +29,7 @@ export const Main = () => {
         <p className="about_text">In addition to my development work, I enjoy sharing my knowledge and insights gained in Web Development on Linkedin. Connect with me to access valuable content on Web Development and Programming that can benefit the Dev Community.</p>
         <p className="about_text">I'm actively seeking job opportunities where I can contribute, learn, and grow. If you have a compelling opportunity that aligns with my skills and experience, please don't hesitate to reach out to me!</p>
         <div className="about_btn_container">
-          <button className="connect_about_btn">Let's Connect!</button>
+          <a className="connect_about_btn" href="#contact">Let's Connect!</a>
           <button class="view_work_btn">View my work</button>
         </div>
       </div>

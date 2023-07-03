@@ -15,9 +15,9 @@ export const Navbartop = () => {
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">About</Nav.Link>
-                <Nav.Link href="#link">Projects</Nav.Link>
-                <Nav.Link href="#link" className="contact_nav_btn">Let's Connect!</Nav.Link>
+                <Nav.Link href="#about">About</Nav.Link>
+                <Nav.Link href="#projects">Projects</Nav.Link>
+                <Nav.Link href="#contact" className="contact_nav_btn">Let's Connect!</Nav.Link>
 
               </Nav>
             </Navbar.Collapse>

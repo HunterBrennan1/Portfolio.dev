@@ -320,7 +320,7 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
 .project_1_wrapper{
   height:auto;
   width:374px;
-  background-color: #f6f6f6;
+  background-color: transparent;
   padding:15px;
   border-radius: 24px;
   display: flex;
@@ -332,7 +332,6 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
   width:100%;
   border-radius: 18px;
   filter: brightness(1);
-  border-bottom: none;
 }
 
 .project_1_img:hover{
@@ -351,7 +350,7 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
   font-weight: 500;
   font-size: 20px;
   background-color: #0065ff;
-  border-radius: 50px;
+  border-radius: 5px;
   padding: 5px 0px;
   text-align: center;
   margin-bottom:20px;
@@ -364,18 +363,21 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
 }
 
 .project_skills_btn{
-  border-radius: 15px !important;
+  border-radius: 5px !important;
 }
 
 .project_desc{
   font-weight: 400;
   color:#616063;
   padding:15px 0px;
-  background-color: #f6f6f6;
+  background-color: transparent;
+  margin-top:10px;
+  line-height: 1.8;
 }
 
 .demo_btn, .repo_code_btn{
   background-color: #0065ff;
+  border-radius: 5px;
   color: #f6f6f6;
   font-weight: 500;
 }
@@ -576,6 +578,7 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
   .connect_about_btn{
     padding:12px 24px;
     font-size: 12px;
+    text-align: center;
   }
 
   .view_work_btn{

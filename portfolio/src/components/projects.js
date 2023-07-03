@@ -5,7 +5,7 @@ import Project3 from "../assets/project3.jpg";
 
 export const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <div className="projects_container">
         <div className="project_1_wrapper">
           <h2 className="project_title_1">Primary Keys Rentals</h2>

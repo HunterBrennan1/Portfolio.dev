@@ -7,7 +7,7 @@ import Resume from "../assets/Rectangle 8.png";
 
 export const Contact = () => {
   return (
-    <section>
+    <section id="contact">
       <div className="contact_section_container">
         <div className="resume_wrapper">
           <h2 className="contact_bubble_title_resume">Resume</h2>

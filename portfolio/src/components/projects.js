@@ -35,7 +35,7 @@ export const Projects = () => {
             <a href="https://github.com/HunterBrennan1/Car-Rental" target="_blank" className="skills_btn  repo_code_btn">Repo Code</a>
           </div>
         </div>
-        <div className="project_1_wrapper">
+        {/* <div className="project_1_wrapper">
           <h2 className="project_title_1">Coming Soon</h2>
           <img className="project_1_img coming_soon" src={Project3}></img>
           <p className="project_desc">Primary Keys Rentals is a car rental application that allows users to book cars from select vehicle types based on location and time.</p>
@@ -48,7 +48,7 @@ export const Projects = () => {
             <a href="https://primary-keys-rentals.netlify.app/" target="_blank" className="skills_btn demo_btn">Live Demo</a>
             <a href="https://github.com/HunterBrennan1/Car-Rental" target="_blank" className="skills_btn repo_code_btn">Repo Code</a>
           </div>
-        </div>
+        </div> */}
 
       </div>
       <div className="projects_view_btn_container">

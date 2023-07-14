@@ -305,19 +305,16 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
 
 /* /////////////Projects section styling//////////////// */
 
-/* .projects_container{
-  padding-left:15%;
-  padding-right:15%;
-  margin-top:200px;
-  margin-bottom:80px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap:15px;
-  
+#projects{
+  margin-top:100px;
 }
 
-.project_1_wrapper{
+ .projects_container{
+  padding-left:5%;
+  padding-right:5%;
+}
+
+/*.project_1_wrapper{
   height:auto;
   width:374px;
   background-color: transparent;
@@ -586,14 +583,12 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
     font-size: 12px;
   }
 
-  /* .projects_container{
-    flex-direction: column;
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-top: 80px;
+   .projects_container{
+    padding-left: 5%;
+    padding-right: 5%;
   }
 
-  .project_1_wrapper{
+  /*.project_1_wrapper{
     flex-direction: column;
     width:100%;
     background-color: transparent;

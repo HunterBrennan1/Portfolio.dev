@@ -305,7 +305,7 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
 
 /* /////////////Projects section styling//////////////// */
 
-.projects_container{
+/* .projects_container{
   padding-left:15%;
   padding-right:15%;
   margin-top:200px;
@@ -386,7 +386,7 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
   justify-content: center;
   display: flex;
   margin-bottom: 200px;
-}
+} */
 
 /* ////////////////////resume and contact section styling//////////////////////// */
 
@@ -586,7 +586,7 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
     font-size: 12px;
   }
 
-  .projects_container{
+  /* .projects_container{
     flex-direction: column;
     padding-left: 5px;
     padding-right: 5px;
@@ -596,7 +596,6 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
   .project_1_wrapper{
     flex-direction: column;
     width:100%;
-    /* width:313.84px; */
     background-color: transparent;
     justify-content: center;
     align-items: center;
@@ -631,7 +630,7 @@ box-shadow: 0px 0px 16px -4px rgba(0,0,0,0.28);
 
   .demo_btn{
     display:show;
-  }
+  } */
 }
 
 @media screen and (max-width:650px){
